@@ -35,7 +35,6 @@ import com.google.zxing.client.android.Intents;
  */
 public class BarcodeScanner extends CordovaPlugin {
     public static final int REQUEST_CODE = 0x0ba7c;
-
     private static final String SCAN = "scan";
     private static final String ENCODE = "encode";
     private static final String CANCELLED = "cancelled";
